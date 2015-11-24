@@ -1,0 +1,47 @@
+{
+  "name": "semver-inc-wizard",
+  "version": "1.0.0-alpha.0",
+  "description": "CLI wizard to guide you through the process of incrementing your version number.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ariutta/semver-inc-wizard.git"
+  },
+  "keywords": [
+    "bump",
+    "version",
+    "semantic",
+    "semver",
+    "inc",
+    "increment",
+    "release"
+  ],
+  "author": "Anders Riutta",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ariutta/semver-inc-wizard/issues"
+  },
+  "homepage": "https://github.com/ariutta/semver-inc-wizard#readme",
+  "dependencies": {
+    "JSONStream": "^1.0.6",
+    "inquirer": "^0.11.0",
+    "resolve-from": "^1.0.1",
+    "rx": "^4.0.6",
+    "rx-node": "^1.0.1",
+    "semver": "^5.0.3"
+  },
+  "devDependencies": {
+    "bdd-stdin": "^0.2.0",
+    "chai": "^3.4.1",
+    "chai-as-promised": "^5.1.0",
+    "colors": "^1.1.2",
+    "lodash": "^3.10.1",
+    "mocha": "^2.3.4",
+    "mockery": "^1.4.0",
+    "sinon": "^1.17.2",
+    "util": "^0.10.3"
+  }
+}
