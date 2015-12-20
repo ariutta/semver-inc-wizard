@@ -1,10 +1,10 @@
 {
   "name": "semver-inc-wizard",
-  "version": "1.0.0-alpha.0",
+  "version": "1.0.0",
   "description": "CLI wizard to guide you through the process of incrementing your version number.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/mocha/bin/mocha ./test/specs/api.js "
   },
   "repository": {
     "type": "git",
